@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Lenis from 'lenis';
+import { Analytics } from '@vercel/analytics/react';
 import { HeroSection } from './components/HeroSection';
 import { MarqueeSection } from './components/MarqueeSection';
 import { AboutSection } from './components/AboutSection';
@@ -62,6 +63,9 @@ function App() {
 
       {/* Contact Section */}
       <ContactSection />
+
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }
