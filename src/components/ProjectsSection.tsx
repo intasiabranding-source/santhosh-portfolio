@@ -41,6 +41,24 @@ const projectsList: ProjectData[] = [
     col1Img2: '/media__1782489812407.jpg',
     col2Img: '/media__1782492992278.png',
   },
+  {
+    num: '04',
+    name: 'Intasia CRM',
+    category: 'Enterprise SaaS & RAG CRM',
+    liveUrl: 'https://intasia-crm-eece.vercel.app/',
+    col1Img1: '/media__1783139295407.png',
+    col1Img2: '/media__1783139315745.png',
+    col2Img: '/media__1783139457105.png',
+  },
+  {
+    num: '05',
+    name: 'Bright Builders',
+    category: 'Architecture & Construction Platform',
+    liveUrl: 'https://bright-builders-phi.vercel.app/',
+    col1Img1: '/media__1783139181037.png',
+    col1Img2: '/media__1783139198755.png',
+    col2Img: '/media__1783139154090.png',
+  },
 ];
 
 export const ProjectsSection: React.FC = () => {
